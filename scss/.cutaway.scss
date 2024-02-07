@@ -1,0 +1,203 @@
+.main__cutaway {
+    margin-bottom: 44px;
+    .cutaway__body {
+        position: relative;
+        padding: 8px 0;
+        .cutaway__img {
+            position: absolute;
+            z-index: -1;
+            width: 320px;
+            height: 208px;
+            opacity: 0.1;
+            top: 0;
+            left: 50%;
+            transform: translate(-50%);
+        }
+        .cutaway__title {
+            font-weight: 900;
+            font-size: 1.3125rem;
+            color: var(--color-own);
+            text-transform: uppercase;
+            text-align: center;
+            margin-bottom: 2px;
+        }
+        .cutaway__content {
+            display: flex;
+            flex-direction: column;
+            gap: 34px;
+        }
+        .cutaway__link {
+            color: var(--color-link);
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+        .cutaway__section {
+            padding: 0 8px;
+        }
+        .cutaway__text {
+            font-size: 1.125rem;
+            font-weight: 400;
+            color: var(--color-own);
+            line-height: 112%;
+            letter-spacing: -0.18px;
+            text-align: center;
+        }
+        .cutaway__list {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 3px;
+            margin-top: 19px;
+        }
+        .cutaway__item {
+            display: grid;
+            justify-content: center;
+        }
+        .cutaway__item:first-child {
+            .cutaway__price {
+                font-size: 1.4375rem;
+                padding: 0 8px;
+            }
+        }
+        .cutaway__price {
+            border-radius: 4px;
+            background: var(--color-link);
+            justify-self: center;
+            padding: 0 6px;
+            font-size: 1.125rem;
+        }
+    }
+}
+@media (min-width: 860px) {
+    .main__cutaway {
+        margin-bottom: 64px;
+        .cutaway__body {
+            position: relative;
+            padding: 0;
+            display: flex;
+            gap: 46px;
+            .cutaway__img {
+                transform: none;
+                left: auto;
+                position: relative;
+                z-index: 1;
+                width: calc(100vw*0.47);
+                height: calc(100vw*0.3);
+                max-width: 260px;
+                max-height: 180px;
+                opacity: 1;
+            }
+            .cutaway__title {
+                text-align: left;
+                margin-bottom: 0;
+            }
+            .cutaway__content {
+                display: flex;
+                flex-direction: column;
+                gap: 34px;
+            }
+            .cutaway__link {
+                color: var(--color-link);
+            }
+            .cutaway__section {
+                padding: 0;
+            }
+            .cutaway__text {
+                font-weight: 300;
+                line-height: 120%;
+                letter-spacing: 0;
+                text-align: left;
+            }
+            .cutaway__list {
+                align-items: start;
+                gap: 2px;
+                margin-top: 14px;
+            }
+            .cutaway__item {
+                display: flex;
+                align-items: center;
+                justify-content: start;
+            }
+            .cutaway__item:first-child {
+                gap: 10px;
+                .cutaway__price {
+                    padding: 0 8px;
+                }
+            }
+            .cutaway__price {
+                border-radius: 8px;
+                background: var(--color-link);
+                justify-self: center;
+                padding: 0 4px;
+            }
+        }
+    }
+}
+@media (min-width: 1440px) {
+    .main__cutaway {
+        margin-bottom: 104px;
+        .cutaway__body {
+            position: relative;
+            padding: 0;
+            display: flex;
+            gap: 46px;
+            .cutaway__img {
+                position: relative;
+                z-index: 1;
+                width: 500px;
+                height: 226px;
+                max-width: 500px;
+                max-height: 226px;
+                opacity: 1;
+            }
+            .cutaway__title {
+                font-size: 2.3125rem;
+                text-align: left;
+                margin-bottom: 0;
+            }
+            .cutaway__content {
+                display: flex;
+                flex-direction: column;
+                gap: 34px;
+            }
+            .cutaway__link {
+                color: var(--color-link);
+            }
+            .cutaway__section {
+                padding: 0;
+            }
+            .cutaway__text {
+                font-size: 1.875rem;
+                font-weight: 300;
+                line-height: 120%;
+                letter-spacing: 0;
+                text-align: left;
+            }
+            .cutaway__list {
+                align-items: start;
+                gap: 2px;
+                margin-top: 14px;
+            }
+            .cutaway__item {
+                display: flex;
+                align-items: center;
+                justify-content: start;
+                gap: 10px;
+            }
+            .cutaway__item:first-child {
+                .cutaway__price {
+                    font-size: 1.875rem;
+                    padding: 0 8px;
+                }
+            }
+            .cutaway__price {
+                border-radius: 8px;
+                background: var(--color-link);
+                justify-self: center;
+                padding: 0 4px;
+                font-size: 1.875rem;
+            }
+        }
+    }
+}

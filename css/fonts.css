@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "p-geometria";
+  src: url(../font/geometria_bold.woff2) format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "p-geometria";
+  src: url(../font/geometria_extrabold.woff2) format("woff2");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "p-geometria";
+  src: url(../font/geometria_light.woff2) format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "p-geometria";
+  src: url(../font/geometria_medium.woff2) format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

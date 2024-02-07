@@ -1,0 +1,1 @@
+.header__body{text-align:center;padding:14px 0}.header__body .header__logo{display:inline-block;width:calc(var(--sizer)*8);height:calc(var(--sizer)*3);max-width:157px;max-height:60px}@media(min-width: 1600px){.header{margin-bottom:16px}.header .header__body{text-align:left;padding:30px 0}}
